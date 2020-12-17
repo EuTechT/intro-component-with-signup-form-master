@@ -1,0 +1,15 @@
+html, body {
+    font: {
+        family: $fonte-principal;
+        size: $tamanho-fonte-principal;
+    }
+}
+
+body {
+    height: 100vh;
+    background: {
+        image: $background-image-mobile;
+        color: $background-color;
+    }
+    @include flexbox();
+}
