@@ -1,0 +1,39 @@
+.container__hero {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.hero__title,
+.hero__paragraph {
+    text-align: center;
+}
+
+.hero__title {
+    width: 86%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+}
+
+.hero__paragraph {
+    margin-top: 1.6rem;
+}
+
+@media #{$breakpoint} {
+    .container__hero {
+        width: 52%;
+    }
+
+    .hero__title,
+    .hero__paragraph {
+        text-align: left;
+    }
+
+    .hero__title {
+        font-size: 2.6rem;
+        margin: 0;
+    }
+
+    .hero__paragraph {
+        font-size: 1.2rem;
+    }
+}

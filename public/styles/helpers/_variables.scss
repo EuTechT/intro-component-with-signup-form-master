@@ -2,7 +2,20 @@
 
 $fonte-principal: 'Poppins', sans-serif;
 $tamanho-fonte-principal: 16px;
+$cor-fonte-principal: #fff;
 
 $background-color: hsl(0, 100%, 74%);
 $background-image-mobile: url("../images/bg-intro-mobile.png");
 $background-image-desktop: url("../images/bg-intro-desktop.png");
+
+$breakpoint: "all and (min-width: 1026px)";
+
+$background-form-header: rgb(93, 84, 163);
+
+$background-button: rgb(55, 197, 133);
+
+$background-button-hover: rgb(119, 226, 180);
+
+$cor-link: hsl(0, 100%, 74%);
+
+$cor-info: hsl(246, 25%, 77%);

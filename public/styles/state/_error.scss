@@ -1,0 +1,17 @@
+.error {
+    border: 2px solid $cor-link;
+    background: {
+        image: url("../images/icon-error.svg");
+        repeat: no-repeat;
+        position: 95%;
+    }
+}
+
+.label-error {
+    color: $cor-link;
+    font: {
+        size: 0.6rem;
+        weight: 400;
+    }
+    display: block;
+}
